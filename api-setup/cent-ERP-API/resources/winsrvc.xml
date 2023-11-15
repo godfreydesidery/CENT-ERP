@@ -1,0 +1,12 @@
+<configuration>
+<!-- ID of the service. It should be unique accross the Windows system-->
+<id>Cent-ERP-API</id><!--You can append organization/instance name if multiple organization/instances will be involved in the server. e.g Cent-ERP-API-COMPANY_NAME -->
+<!-- Display name of the service -->
+<name>Cent-ERP-API</name><!--You can append organization/instance name if multiple organization/instances will be involved in the server. e.g Cent-ERP-API-COMPANY_NAME -->
+<!-- Service description -->
+<description>Spring Boot Service</description>
+
+<!-- we need to execute java -jar ./XXX.jar -->
+<executable>java</executable>
+<arguments>-jar "%BASE%\cent-erp-api-0.0.1-SNAPSHOT.jar</arguments><!--This is the name of the executable jar file in the resource folder-->
+</configuration>
